@@ -21,3 +21,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Intellij
+.idea/
+*.ipr
+*.iml
+*.iws
+.idea
+out/
+.DS_Store
+/bootstrap
+/dependencies.xml
+.java-version
+
+# Maven
+.flattened-pom.xml
+log/
+target/
+gen/
