@@ -11,15 +11,10 @@ public class Main {
         Coche hyundai= new Coche("Hyundai","New Accent","Gris",2021,1368.00,99,13.50);
         Coche ford = new Coche("Ford","Explorer","Negro",2020,1998.00,300,25.10);
 
-
-        System.out.println(mitsubishi);
-
-
         // Guardar Coche
         cocheCrud.save(mitsubishi);
         cocheCrud.save(hyundai);
         cocheCrud.save(ford);
-
 
         //Consultar Coche
         List<Coche> coches = cocheCrud.findAll();
